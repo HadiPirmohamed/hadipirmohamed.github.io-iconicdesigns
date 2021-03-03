@@ -18,6 +18,7 @@
         z-index: 2;
     }
 
+
     .navbar-logo {
         display: none;
     }
@@ -54,7 +55,7 @@
     }
 
     #AboutHP {
-        padding: 100px 50px 0 50px;
+        padding: 100px 10px 0 10px;
     }
 
 
