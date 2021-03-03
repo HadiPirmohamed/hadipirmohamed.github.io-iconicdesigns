@@ -5,6 +5,10 @@
         margin: 0;
     }
 
+    h2 {
+        font-size: 50px;
+    }
+
     /***** NAVBAR *****/
    
     .navbar {
@@ -55,8 +59,24 @@
     }
 
     #AboutHP {
-        padding: 100px 10px 0 10px;
+        padding: 100px 0px 0 0px;
     }
+
+
+
+    #LineHP {
+        background-color: #E6E6E6;
+        border-radius: 20px;
+        padding: 75px 0 0 0 ;
+        margin-top: 100px;
+    }
+
+    .text1 {
+        top: -75px;
+        padding-left: 120px;
+        text-align: center;
+    }
+
 
 
 
@@ -64,6 +84,8 @@
 
     #aboutUs {
         text-align: center;
+        padding: 100px 50px 100px 50px;
+
     }
     
 }
