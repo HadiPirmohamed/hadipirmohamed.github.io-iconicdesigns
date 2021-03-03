@@ -98,10 +98,21 @@
 
 
 
+    /***** Line Products *****/
 
+    .buyNow-button1 {
+        right: 39px;
+        top: 120px;
+    }
 
+    #Line-Video {
+        padding-top: 50px;
+    }
 
-
+    #Line-Colours {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
 
 
 
@@ -114,4 +125,7 @@
         padding: 25px 30px;
     }
 
+    .AppList-Icons-Image {
+        margin: 25px 35px;
+    }
 }

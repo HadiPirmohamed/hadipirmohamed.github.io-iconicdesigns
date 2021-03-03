@@ -206,9 +206,7 @@ a:hover {
 /***** ABOUT HOMEPAGE *****/
 
 #AboutHP {
-    padding: 250px;
-    padding-top: 100px;
-    padding-bottom: 0px;
+    padding: 100px 250px 0 250px;
     text-align: center;
 }
 
