@@ -1,14 +1,43 @@
 
-@media (max-width: 767px) {
+@media (max-width: 575.98px) {
+
+    body{
+        margin: 0;
+    }
 
     /***** NAVBAR *****/
    
+    .navbar {
+        background-color: #4D4D4D;
+        height: 75px;
+        width: auto;
+        left: 38px;
+        right: 38px;
+        position: fixed;
+        margin: 38px;
+        z-index: 2;
+    }
+
+    .navbar-logo {
+        display: none;
+    }
+
+    
+    /***** INDEX *****/
+
+    #homepage {
+        background-color: #E6E6E6;
+        border-radius: 0;
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     .homepage-text {
         text-align: center;
     }
-    
 
-    /***** INDEX *****/
+    
 
     #preLaunchHome {
         margin: 0 50px;
