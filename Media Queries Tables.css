@@ -1,0 +1,265 @@
+
+@media (max-width: 991px) {
+
+    /***** NAVBAR *****/
+
+.nav-item {
+    background-color: #4D4D4D;
+    width: 100%;
+    height: 50px;
+    padding-top: 13px;
+    text-align: center;        
+    float: right;
+    position: relative;
+    top: 125px;
+}
+
+.navbar-toggler {
+    border: 0px;
+    position: relative;
+    padding-right: 20px;
+}
+
+#navbarNavAltMarkup {
+    position: absolute;
+    z-index: 1;
+}
+
+    /***** INDEX *****/
+
+#preLaunchHome {
+    margin: 0 50px;
+}
+
+.line-blur-image {
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.prelaunchtitle {
+    font-size: 40px;
+}
+
+.text {
+    text-align: center;
+    top: -75px;
+    left: 0px;
+}
+
+#homepage {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.homepage-text {
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.icons-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    display: none;
+}
+
+.explore-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.buyNow-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#AboutHP {
+    padding: 100px 100px 0 100px;
+}
+
+.LineVideoHome {
+    width: 90%;
+}
+
+.lineApp-image {
+    height: auto;
+    width: 100%;
+    padding-left: 200px;
+}
+
+.text1 {
+    top: -75px;
+    padding-left: 120px;
+    text-align: center;
+}
+
+.Text1 {
+    font-size: 25px;
+}
+
+.tick-icon {
+    height: 25px;
+}
+
+
+    /***** ABOUT ME *****/
+
+#aboutUs {
+    text-align: center;
+}
+
+.logo-icon {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    right: 30px;
+}
+
+
+    /***** PR0DUCT_LINE *****/
+
+/** VIDEO **/
+
+.LineVideo  {
+    width: 90%;
+}
+
+/** COLOURS **/
+
+#Line-Colours {
+    padding-top: 150px;
+    padding-bottom: 0px;
+}
+
+.iPhone-Image {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50px;
+    height: 400px;
+    width: auto;
+}
+
+.colour-text{
+    text-align: center;
+    top: -800px;
+    right: 40px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.inline {
+    display: inline;    
+}
+
+/** APPS **/
+
+#Line-Icons {
+    position: relative;
+    top: -200px;
+    margin-bottom: -300px;
+}
+
+.all-icons-image {
+    padding: 75px 0 0 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+/** PACKS **/
+
+.ipt {
+    position: relative;
+    top: 100px;
+}
+
+.iconPack-card {
+    width: 300px;
+    margin: 0 auto;
+    display: none;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+#Line-Packs-Mobile {
+    margin-bottom: 100px;
+}
+
+.iconPack-card-mobile {
+    display: block;
+}
+
+.Mobile-Packs-Indicators {
+    display:inline-flex;
+}
+
+.Mobile-Indicators {
+    position: absolute;
+    display: block;
+    top: 180px;
+}
+
+    /***** INSTRUCTIONS *****/
+
+.tutorial-steps {
+    width: 80%;
+    height: 600px;
+}
+
+.tutorialSteps-Image {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    right: 60px;
+    top: 150px;   
+}
+
+.Step-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    right: -20px;
+    top: -450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,652 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Nunito Sans', sans-serif; */
+
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 1.5;
+    color: #575756;
+}
+
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 1.5;
+    color: #575756;
+}
+
+h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1.5;
+    color: #575756;
+}
+
+h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #FF931E;
+}
+
+h5 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #575756;
+}
+
+p {
+   font-family: 'Nunito Sans', sans-serif;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #575756;
+}
+
+body{
+    margin: 37px;
+}
+
+a {
+    color: #FF931E;
+}
+
+a:hover {
+    color: #575756;
+}
+
+
+
+/***** NAVBAR *****/
+
+/* #navbar {
+
+} */
+
+.navbar {
+    background-color: #4D4D4D;
+    border-radius: 20px;
+    height: 75px;
+    width: auto;
+    left: 250px;
+    right: 38px;
+    position: fixed;
+    margin: 38px;
+    z-index: 2;
+}
+
+.navbar-logo {
+    position: fixed;
+    margin: 38px;
+    z-index: 2;
+}
+
+.navbar-nav {
+    display: inline-block;
+    line-height: 1.5;
+    margin: 0 0px;
+}
+
+.nav-item {
+    padding: 0 20px;
+    color: #E6E6E6;
+}
+
+.nav-item:hover {
+    font-family: 'AvenirNextW10-Regular',sans-serif;
+    color: #FF931E;
+    text-decoration: none;
+}
+
+.nav-item-active {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FF931E;
+}
+
+.navbar-basket {
+    margin: 0 20px;
+}
+
+
+
+
+/***** FOOTER *****/
+#footer {
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-icons {
+    color: #FF931E;
+    margin: 2% 1%;
+}
+
+
+/***** PRE LAUNCH HOME *****/
+
+#preLaunchHome {
+   margin: 0 100px;
+}
+
+.line-blur-image {
+    position: relative;
+    left: -200px;
+    top: 50px;
+    z-index: -1;
+}
+
+.text {
+    position: relative;
+    top: 250px;
+    z-index: -1;
+    left: 50px;
+}
+
+
+/***** AFTER LAUNCH HOME *****/
+
+/***** HOMEPAGE *****/
+
+#homepage {
+    background-color: #E6E6E6;
+    border-radius: 20px;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.icons-image {
+    float: right;
+    margin-right: -80px;
+    height: 550px;
+}
+
+.homepage-text {
+    padding: 50px;
+}
+
+.explore-button {
+    border-radius: 15px;
+    background-color: #FF931E;
+    border-color: #FF931E;
+    border-width: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.buyNow-button {
+    border-radius: 15px;
+    border-color: #FF931E;
+    border-width: 3px;
+    padding-left: 37px;
+    padding-right: 37px;
+    color: #FF931E;
+    margin-top: 20px;
+}
+
+.explore-button:hover {
+    background-color: #4D4D4D;
+    border-color: #4d4d4d;
+}
+
+.buyNow-button:hover {
+    background-color: #E6E6E6;
+    border-color: #4d4d4d;
+}
+
+/***** ABOUT HOMEPAGE *****/
+
+#AboutHP {
+    padding: 250px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.readMore-Button {
+    color: #FF931E;
+}
+
+.readMore-Button:hover {
+    color: #575756;
+}
+
+#Line-Video-Home {
+    padding-top: 100px;
+    padding-bottom: 00px;
+}
+
+.LineVideoHome {
+    width: 63%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+/***** PRODUCT 1 HOMEPAGE *****/
+
+#LineHP {
+    background-color: #E6E6E6;
+    border-radius: 20px;
+    padding: 75px 0 0 0 ;
+    margin-top: 100px;
+}
+
+.lineApp-image {
+    position: relative;
+    left: -100px;
+}
+
+.text1 {
+   top: 165px;
+   left: -50px;
+}
+
+.tick-icon {
+    padding-right: 20px;
+}
+
+
+/***** ABOUT US *****/
+
+#aboutUs {
+    background-color: #E6E6E6;
+    border-radius: 20px;
+    padding: 100px 100px 200px 100px;
+    bottom: 100px;
+    text-align: justify;
+}
+
+.text2 {
+    top: 100px;
+}
+
+.logo-icon {
+    position: relative;
+    padding: 0 75px 0 100px;
+    top: 120px;
+    float: right;
+    margin-right: -80px;
+    margin-left: auto;
+}
+
+
+
+/***** LINE PRODUCTS *****/
+/***** TITLE *****/
+
+.buyNow-button1 {
+    border-radius: 15px;
+    border-color: #FF931E;
+    border-width: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #FF931E;
+    position: fixed;
+    right: 78px;
+    top: 160px;
+    z-index: 1;
+}
+
+.buyNow-button1:hover {
+    border-color: #4d4d4d;
+}
+
+
+#line-index {
+    text-align: center;
+    padding: 600px 0 100px 0;
+}
+
+.line-image {
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    width: 100%;
+    float: center;
+}
+
+.down-arrow {
+    color: rgb(184, 184, 184);
+}
+
+/***** VIDEO *****/
+
+#Line-Video {
+    padding-top: 100px;
+    padding-bottom: 00px;
+}
+
+.rectangle {
+    width:843px;
+    height:450px;
+    background:#4D4D4D;
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+}
+
+.embed-responsive {
+    width: 63%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4.5%;   
+}
+
+.LineVideo {
+    width: 63%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/***** COLOURS *****/
+
+  /* *::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .carousel-color {
+    padding-top: 895px;
+    position: relative;
+  }
+  
+  .carousel__viewport {
+    position: absolute;
+    margin-top: 150px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: scroll;
+    counter-reset: item;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  
+  
+  .carousel__snapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: center;
+  }
+   */
+
+
+#Line-Colours {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+/* .Jet-Black {
+    background-color: #333333;
+    border-radius: 20px;
+    margin: 100px 0px 0 0;
+}
+
+.Space-Grey {
+    background-color: #808080;
+    border-radius: 20px;
+    margin: 100px 0 0 0;
+}
+
+.Pearl-White {
+    background-color: #E6E6E6;
+    border-radius: 20px;
+    margin: 100px 0 0 0;
+}
+
+.Rose-Gold {
+    background-color: #E6C7C3;
+    border-radius: 20px;
+    margin: 100px 0 0 0;
+}
+
+.Gold {
+    background-color: #F5DDC5;
+    border-radius: 20px;
+    margin: 100px 0 0 0;
+}
+
+.Product-Red {
+    background-color: #C0696C;
+    border-radius: 20px;
+    margin: 100px 0 0 0;
+}
+
+.Pasific-Blue {
+    background-color: #4D8FB2;
+    border-radius: 20px;
+    margin: 100px 0 0 0;
+}
+
+.Sky-Blue {
+    background-color: #87CEEB;
+    border-radius: 20px;
+    margin: 100px 0 0 0;
+}
+
+.Deep-Green {
+    background-color: #4D8087;
+    border-radius: 20px;
+    margin: 100px 0 0 0;
+}
+
+.Mint-Green {
+    background-color: #AAF0D1;
+    border-radius: 20px;
+    margin: 100px 0 0 0;
+} */
+
+.iPhone-Image {
+    margin: 170px 0 75px 0;
+    float: right;
+}
+
+.colour-text{
+    margin: 250px 0 75px 0px;
+    padding-left: 100px;
+}
+
+
+
+
+/***** ICONS *****/
+
+#Line-Icons {
+    text-align: center;
+}
+
+
+.Icons-Link {
+    padding: 0 20px;
+    color: #4D4D4D;
+    font-size: 20px;
+}
+
+.Icons-Link:hover {
+    font-family: 'AvenirNextW10-Regular',sans-serif;
+    font-size: 20px;
+    color: #FF931E;
+    text-decoration: none;
+}
+
+.all-icons-image {
+    padding: 75px 0 0 0;
+    margin: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+
+/***** PACKS *****/
+
+#Line-Packs {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.ipt {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+.iconPack-card {
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    margin-right: 55%;
+    margin-left: 55%;
+}
+
+.buyNow-buttonOne {
+    border-radius: 15px;
+    border-color: #FF931E;
+    border-width: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #4D4D4D;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.buyNow-buttonOne:hover {
+    border-color: #FF931E;
+    background-color: #F2F2F2;
+}
+
+.carousel-indicators {
+    filter: invert(100%);
+    bottom: -60px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    filter: invert(100%);
+}
+
+.iconPack-card-mobile {
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    margin: 0 auto;
+    display: none;
+}
+
+.Mobile-Packs-Indicators{
+    display: none;
+}
+
+.Mobile-Indicators {
+    display: none;
+}
+
+/***** INSTRUCTIONS *****/
+
+#tutorial {
+    padding-top: 200px;
+    padding-bottom: 75px;
+}
+
+.tutorial-steps {
+    background-color: #E6E6E6;
+    border-radius: 20px;
+    width:60%;
+    height:50%;
+    position: relative;
+    margin: auto;
+    padding: 52px 0;
+}
+
+.tutorialSteps-Image {
+    padding-left: 100px;
+}
+
+.Step-text {
+    padding-right: 50px;
+    padding-top: 75px
+}
+
+
+/***** ALL APPS *****/
+
+#App-List-SubHeadings {
+    padding: 220px 50px 10px 50px;
+    line-height: 2;
+}
+
+.App-List-Title{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.SubHeadings-item {
+    padding: 0 20px;
+    color: #4d4d4d;
+}
+
+.SubHeadings-item:hover {
+    font-family: 'AvenirNextW10-Regular',sans-serif;
+    color: #FF931E;
+    text-decoration: none;
+}
+
+.SubHeadings-item-active {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FF931E;
+    text-decoration: none;
+}
+
+.App-List-SubHeading{
+    padding-top: 10px;
+    text-align: center;
+}
+
+#App-List-Icons {
+    background-color: #E6E6E6;
+    border-radius: 20px;
+    margin: 20px 38px;
+    padding: 25px 30px;
+}
+
+.AppList-Icons-Image {
+    width: 50px;
+    height: 50px;
+    margin: 25px 38px;
+}
+
+figure {
+    text-align: center;
+    font-size: smaller;
+}
+
+
+
+
+
+
