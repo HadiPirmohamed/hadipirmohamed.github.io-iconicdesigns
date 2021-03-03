@@ -124,9 +124,17 @@
         border-radius: 20px;
         margin: 20px 0px;
         padding: 25px 30px;
+        display: block;
     }
 
     .AppList-Icons-Image {
         margin: 25px 35px;
     }
+
+    .appListContainer {
+        margin: 0 auto;
+
+        
+    }
+
 }
