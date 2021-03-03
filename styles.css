@@ -243,11 +243,13 @@ a:hover {
 .lineApp-image {
     position: relative;
     left: -100px;
+    width: 120%;
+    height: auto;
 }
 
 .text1 {
-   top: 165px;
-   left: -50px;
+    margin-top: 130px;
+    left: -80px;
 }
 
 .tick-icon {
