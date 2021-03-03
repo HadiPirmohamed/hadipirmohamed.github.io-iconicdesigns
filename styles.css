@@ -275,10 +275,11 @@ a:hover {
 .logo-icon {
     position: relative;
     padding: 0 75px 0 100px;
-    top: 120px;
+    top: 150px;
     float: right;
     margin-right: -80px;
     margin-left: auto;
+    height: 300px;
 }
 
 
