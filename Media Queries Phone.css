@@ -59,7 +59,7 @@
     }
 
     #AboutHP {
-        padding: 100px -50px 0px -50px;
+        padding: 100px -100px 0px -100px;
         margin: 0;
     }
 
@@ -79,7 +79,7 @@
     }
 
     .lineApp-image {
-        width: 200px;
+        width: 400px;
     }
 
 
@@ -130,12 +130,16 @@
     }
 
     .AppList-Icons-Image {
-        margin: 25px 35px;
+        margin: 25px 30px;
     }
 
     .appListContainer {
         position: relative;
         margin: 0 auto;
+    }
+
+    figure {
+        font-size: x-small;
     }
 
 }
