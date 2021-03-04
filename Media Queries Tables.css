@@ -102,6 +102,7 @@
     margin-top: 100px;
     margin-right: -50px;
     margin-left: -50px;
+    text-align: center;
 }
 
 .lineApp-image {
@@ -115,9 +116,8 @@
 
 .text1 {
     top: -75px;
-    padding-left: 160px;
+    left: 10px;
     text-align: center;
-
 }
 
 .Text1 {
