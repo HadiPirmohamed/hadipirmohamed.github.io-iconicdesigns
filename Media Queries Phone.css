@@ -28,6 +28,15 @@
     }
 
     
+    /***** PRE LAUNCH *****/
+
+    .text {
+        position: relative;
+        top: 50px;
+        z-index: -1;
+        left: 50px;
+    }
+
     /***** INDEX *****/
 
     #preLaunchHome {
