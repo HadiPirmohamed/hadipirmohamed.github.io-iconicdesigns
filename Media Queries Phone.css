@@ -84,8 +84,11 @@
     /***** ABOUT ME *****/
 
     #aboutUs {
-        text-align: center;
         padding: 100px 50px 200px 50px;
+    }
+
+    .abouttitle {
+        text-align: center;
     }
     
     .logo-icon {
