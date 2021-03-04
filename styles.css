@@ -138,7 +138,8 @@ a:hover {
 
 .line-blur-image {
     position: relative;
-    top: -150px;
+    top: -15%;
+    right: 30%;
     z-index: -1;
     width: 60vw;
     display: block;
