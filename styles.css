@@ -133,18 +133,21 @@ a:hover {
 
 #preLaunchHome {
    margin: 0 100px;
+   padding-top: 200px;
 }
 
 .line-blur-image {
     position: relative;
-    left: -200px;
-    top: 50px;
+    top: -150px;
     z-index: -1;
+    width: 60vw;
+    display: block;
+    margin: 0 auto;
 }
 
 .text {
     position: relative;
-    top: 250px;
+    top: 50px;
     z-index: -1;
     left: 50px;
 }
