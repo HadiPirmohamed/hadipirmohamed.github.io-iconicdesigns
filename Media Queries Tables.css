@@ -97,8 +97,11 @@
 
 .lineApp-image {
     height: auto;
-    width: 100%;
+    width: 120%;
     padding-left: 200px;
+    left: -50px;
+    margin-bottom: -100px;
+    float: right;
 }
 
 .text1 {
