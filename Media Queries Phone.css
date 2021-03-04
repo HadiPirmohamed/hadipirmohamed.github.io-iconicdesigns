@@ -66,13 +66,13 @@
 
     #AboutHP {
         padding: 100px -50px 0px -50px;
-        margin: 0 0px;
+        margin: 0 -50px;
     }
 
     #LineHP {
         background-color: #E6E6E6;
         border-radius: 20px;
-        padding: 75px -50px 0;
+        padding: 75px 0;
         margin-top: 100px;
     }
 
