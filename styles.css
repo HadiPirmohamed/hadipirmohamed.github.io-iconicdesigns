@@ -153,6 +153,13 @@ a:hover {
     left: 50px;
 }
 
+.prelaunchtitle {
+    font-size: 4vw;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
 
 /***** AFTER LAUNCH HOME *****/
 
