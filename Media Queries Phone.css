@@ -72,13 +72,12 @@
     #LineHP {
         background-color: #E6E6E6;
         border-radius: 20px;
-        padding: 75px -50px 0  ;
+        padding: 75px -50px 0;
         margin-top: 100px;
     }
 
     .text1 {
         top: -75px;
-        padding-left: 120px;
         text-align: center;
     }
 
