@@ -262,6 +262,10 @@ a:hover {
     margin-top: 130px;
     left: -80px;
     font-size: 3vw;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #4D4D4D;
+    line-height: 2;
 }
 
 .tick-icon {
