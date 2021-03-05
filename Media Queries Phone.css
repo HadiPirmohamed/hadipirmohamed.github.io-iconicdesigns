@@ -49,9 +49,6 @@
         height: auto;
     }
 
-
-
-
     #homepage {
         background-color: #E6E6E6;
         border-radius: 20px;
@@ -77,11 +74,9 @@
     }
 
     .text1 {
-        top: -100px;
+        top: -220px;
         text-align: center;
     }
-
-
 
 
     /***** ABOUT ME *****/
@@ -95,7 +90,6 @@
     }
     
     .logo-icon {
-        padding-top: 50px;
         margin-left: auto;
         margin-right: auto;
         width: 100%;

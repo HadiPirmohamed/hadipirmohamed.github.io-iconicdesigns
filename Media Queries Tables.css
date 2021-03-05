@@ -109,10 +109,11 @@
     left: 0;
     margin-bottom: -100px;
     width: 100%;
+    top: -75px;
 }
 
 .text1 {
-    top: -75px;
+    top: -220px;
     left: 10px;
     text-align: center;
 }
@@ -133,7 +134,6 @@
 }
 
 .logo-icon {
-    padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
