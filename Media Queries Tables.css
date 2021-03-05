@@ -40,10 +40,18 @@
     margin-top: 50px;
     width: 100%;
     height: auto;
+    top: -100px;
 }
 
 .prelaunchtitle {
     font-size: 40px;
+    top: -100px;
+    position: relative;
+}
+
+.prelaunchtext{
+    top: -100px;
+    position: relative;
 }
 
 .text {
