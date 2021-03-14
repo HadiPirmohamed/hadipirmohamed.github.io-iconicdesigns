@@ -693,17 +693,17 @@ select {
     -webkit-appearance: none;
   }
 
-.basket-button {
+.buy-button {
     border-radius: 15px;
     background-color: #FF931E;
     border-color: #FF931E;
     border-width: 3px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5px;
 }
 
-.basket-button:hover {
+.buy-button:hover {
     background-color: #4D4D4D;
     border-color: #4d4d4d;
 }

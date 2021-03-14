@@ -22,6 +22,9 @@
         z-index: 2;
     }
 
+    .navbar-collapse {
+        margin-left: -250px;
+    }
 
     .navbar-logo {
         left: 5px;
