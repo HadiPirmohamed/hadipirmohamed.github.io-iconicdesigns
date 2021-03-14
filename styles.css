@@ -666,12 +666,57 @@ figure {
 }
 
 
-/***** ALL APPS *****/
+/***** LINE BUY NOW PREVIEW PAGE*****/
+
+#lineColoursPreview {
+    padding: 220px ;
+    text-align: center;
+}
+
+.linePreview-card {
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 20px;
+    width: 280px;
+    height: 385px;
+    margin: 20px 20px;
+}
+
+.previewCards {
+    float: right;
+}
+
+.colourIcons{
+    width: 150%;
+    position: relative;
+    right: 55px;
+    bottom: 50px;
+}
+
+.preview-button {
+    border-radius: 15px;
+    background-color: #FF931E;
+    border-color: #FF931E;
+    border-width: 3px;
+    width: 220px;
+    height: 50px;
+    position: relative;
+    bottom: 130px;
+}
+
+.preview-button:hover {
+    background-color: #4D4D4D;
+    border-color: #4d4d4d;
+}
+
+
+
+
+/***** LINE PREVIEW AND BUY *****/
 
 #LineBuyNow {
     padding: 150px 50px 10px 50px;
 }
-
 
 .LineBuyNowImage {
     border-radius: 20px;
