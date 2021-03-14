@@ -15,7 +15,7 @@
         background-color: #4D4D4D;
         height: 75px;
         width: auto;
-        left: 38px;
+        left: 250px;
         right: 38px;
         position: fixed;
         margin: 38px 0 0 0;
@@ -24,7 +24,7 @@
 
 
     .navbar-logo {
-        display: none;
+        left: 5px;
     }
 
     

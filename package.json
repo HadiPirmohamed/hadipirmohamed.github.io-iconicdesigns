@@ -1,0 +1,24 @@
+{
+  "name": "hadipirmohamed.github.io",
+  "version": "1.0.0",
+  "description": "ICONic DESIGNS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HadiPirmohamed/hadipirmohamed.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HadiPirmohamed/hadipirmohamed.github.io/issues"
+  },
+  "homepage": "https://github.com/HadiPirmohamed/hadipirmohamed.github.io#readme",
+  "dependencies": {
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.12.0"
+  }
+}
