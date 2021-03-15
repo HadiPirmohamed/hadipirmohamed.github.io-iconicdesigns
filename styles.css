@@ -720,10 +720,15 @@ figure {
 
 .LineBuyNowImage {
     border-radius: 20px;
-    width: 100%;
+    width: 650px;
+    height: 450px;
     position: relative;
     margin: 50px auto;
     display: block;
+}
+
+.LineImages {
+    padding-right: 50px;
 }
 
 .line-image1 {
