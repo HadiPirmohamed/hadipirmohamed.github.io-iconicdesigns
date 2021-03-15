@@ -669,7 +669,7 @@ figure {
 /***** LINE BUY NOW PREVIEW PAGE*****/
 
 #lineColoursPreview {
-    padding: 220px ;
+    padding: 220px 50px;
     text-align: center;
 }
 
