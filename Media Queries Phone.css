@@ -11,6 +11,10 @@
 
     /***** NAVBAR *****/
    
+    #navbar {
+        color:red;
+    }
+
     .navbar {
         background-color: #4D4D4D;
         height: 75px;
@@ -106,10 +110,6 @@
     .buyNow-button1 {
         right: 39px;
         top: 120px;
-    }
-
-    #Line-Video {
-        padding-top: 50px;
     }
 
     #Line-Colours {
