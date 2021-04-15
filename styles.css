@@ -115,6 +115,24 @@ a:hover {
 }
 
 
+.buy1-button {
+    border-radius: 12px;
+    border-color: #FF931E;
+    border-width: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #FF931E;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.buy1-button:hover {
+    background-color: #4D4D4D;
+    border-color: #fff;
+    color:#fff;
+}
 
 
 /***** FOOTER *****/
