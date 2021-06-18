@@ -56,13 +56,13 @@
         height: auto;
     }
 
-    #homepage {
+    /* #homepage {
         background-color: #E6E6E6;
         border-radius: 20px;
         padding-top: 100px;
         padding-left: 50px;
         padding-right: 50px;
-    }
+    } */
 
     .homepage-text {
         text-align: center;
@@ -83,6 +83,21 @@
         top: -220px;
         text-align: center;
     }
+
+
+    .launch2-image {
+        display: none;
+    }
+    
+    .launchIG2-image {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 150px;
+        }
+
+
 
 
     /***** ABOUT ME *****/

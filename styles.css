@@ -183,13 +183,13 @@ a:hover {
 
 /***** HOMEPAGE *****/
 
-#homepage {
+/* #homepage {
     background-color: #E6E6E6;
     border-radius: 20px;
     padding-top: 150px;
     padding-left: 100px;
     padding-right: 100px;
-}
+} */
 
 .icons-image {
     float: right;
@@ -230,6 +230,20 @@ a:hover {
 .buyNow-button:hover {
     background-color: #E6E6E6;
     border-color: #4d4d4d;
+}
+
+
+
+.launch2-image {
+    width: 94%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+}
+
+.launchIG2-image {
+    display: none;
 }
 
 /***** ABOUT HOMEPAGE *****/
