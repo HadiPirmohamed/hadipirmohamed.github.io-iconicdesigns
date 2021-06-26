@@ -49,7 +49,7 @@ p {
 }
 
 body{
-    margin: 37px;
+    margin: 19px;
 }
 
 a {
@@ -60,6 +60,9 @@ a:hover {
     color: #575756;
 }
 
+hr {
+    border: 1px solid #575756;
+}
 
 
 /***** NAVBAR *****/
@@ -69,32 +72,42 @@ a:hover {
 } */
 
 .navbar {
-    background-color: #4D4D4D;
+    background-color: #6b6363;
     border-radius: 20px;
     height: 75px;
     width: auto;
-    left: 250px;
-    right: 38px;
+    left: 19px;
+    right: 19px;
     position: fixed;
-    margin: 38px;
+    margin: 19px;
     z-index: 2;
 }
 
+
 .navbar-logo {
     position: fixed;
-    margin: 38px;
+    padding-left: 5px;
+    z-index: 2;
+}
+
+.navbar-logo1 {
+    padding-left: 50px;
     z-index: 2;
 }
 
 .navbar-nav {
     display: inline-block;
+    margin-left: auto;
     line-height: 1.5;
-    margin: 0 0px;
+    padding-right: 5px;
 }
 
 .nav-item {
-    padding: 0 20px;
-    color: #E6E6E6;
+    padding: 0 5px;
+    color: #fff;
+    display: inline-block;
+    margin-left: auto;
+    font-weight: 500;
 }
 
 
@@ -104,11 +117,23 @@ a:hover {
     text-decoration: none;
 }
 
-.nav-item-active {
+.nav-item:active {
     padding-left: 20px;
     padding-right: 20px;
     color: #FF931E;
 }
+
+.dropdown-menu {
+    background-color: #353a3e;
+
+}
+
+.dropdown-item {
+    background-color: #353a3e;
+    color: white;
+    text-align: left;
+}
+
 
 .navbar-basket {
     margin: 0 20px;
@@ -183,22 +208,28 @@ a:hover {
 
 /***** HOMEPAGE *****/
 
-/* #homepage {
-    background-color: #E6E6E6;
+#homepage {
+    background-color: #e4e5e8;
     border-radius: 20px;
-    padding-top: 150px;
-    padding-left: 100px;
-    padding-right: 100px;
-} */
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 19px;
+    margin-right: 19px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 110px;
+}
 
 .icons-image {
     float: right;
-    margin-right: -80px;
-    height: 550px;
+    margin-right: auto;
+    height: 500px;
 }
 
 .homepage-text {
-    padding: 50px;
+    padding: 50px 100px 50px 50px;
+
 }
 
 .explore-button {
@@ -228,11 +259,24 @@ a:hover {
 }
 
 .buyNow-button:hover {
-    background-color: #E6E6E6;
+    background-color: #e4e5e8;
     border-color: #4d4d4d;
 }
 
+.carousel-control-next-icon5 {
+    display: none;
+}
 
+.carousel-control-prev-icon5 {
+    display: none;
+}
+
+.ProductIcon {
+    height: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .launch2-image {
     width: 94%;
@@ -249,7 +293,7 @@ a:hover {
 /***** ABOUT HOMEPAGE *****/
 
 #AboutHP {
-    padding: 100px 280px 0 280px;
+    padding: 150px 280px 0 280px;
     text-align: center;
 }
 
@@ -265,7 +309,7 @@ a:hover {
     margin-top: 100px;
     padding-top: 150px;
     padding-bottom: 100px;
-    background-color: #E6E6E6;
+    background-color: #e4e5e8;
     border-radius: 20px;
 }
 
@@ -310,11 +354,15 @@ a:hover {
 /***** ABOUT US *****/
 
 #aboutUs {
-    background-color: #E6E6E6;
+    background-color: #e4e5e8;
     border-radius: 20px;
-    padding: 100px 100px 200px 100px;
-    bottom: 100px;
+    padding: 0px 100px 200px 100px;
+    bottom: 150px;
     text-align: justify;
+    margin-left: 19px;
+    margin-right: 19px;
+    position: relative;
+    top: 110px;
 }
 
 .text2 {
@@ -413,36 +461,6 @@ a:hover {
 
 /***** COLOURS *****/
 
-  /* *::-webkit-scrollbar {
-    width: 0;
-  }
-  
-  .carousel-color {
-    padding-top: 895px;
-    position: relative;
-  }
-  
-  .carousel__viewport {
-    position: absolute;
-    margin-top: 150px;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow-y: scroll;
-    counter-reset: item;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-  }
-  
-  
-  .carousel__snapper {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    scroll-snap-align: center;
-  }
-   */
 
 
 #Line-Colours {
@@ -450,65 +468,6 @@ a:hover {
     padding-bottom: 150px;
 }
 
-/* .Jet-Black {
-    background-color: #333333;
-    border-radius: 20px;
-    margin: 100px 0px 0 0;
-}
-
-.Space-Grey {
-    background-color: #808080;
-    border-radius: 20px;
-    margin: 100px 0 0 0;
-}
-
-.Pearl-White {
-    background-color: #E6E6E6;
-    border-radius: 20px;
-    margin: 100px 0 0 0;
-}
-
-.Rose-Gold {
-    background-color: #E6C7C3;
-    border-radius: 20px;
-    margin: 100px 0 0 0;
-}
-
-.Gold {
-    background-color: #F5DDC5;
-    border-radius: 20px;
-    margin: 100px 0 0 0;
-}
-
-.Product-Red {
-    background-color: #C0696C;
-    border-radius: 20px;
-    margin: 100px 0 0 0;
-}
-
-.Pasific-Blue {
-    background-color: #4D8FB2;
-    border-radius: 20px;
-    margin: 100px 0 0 0;
-}
-
-.Sky-Blue {
-    background-color: #87CEEB;
-    border-radius: 20px;
-    margin: 100px 0 0 0;
-}
-
-.Deep-Green {
-    background-color: #4D8087;
-    border-radius: 20px;
-    margin: 100px 0 0 0;
-}
-
-.Mint-Green {
-    background-color: #AAF0D1;
-    border-radius: 20px;
-    margin: 100px 0 0 0;
-} */
 
 .iPhone-Image {
     margin: 170px 0 75px 0;
@@ -621,6 +580,115 @@ a:hover {
     display: none;
 }
 
+/* New line */
+
+#LineBody {
+    background-color: #e4e5e8;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px 150px 100px;
+    margin: 20px 19px;
+}
+
+
+.lineSmallContainer {
+    background-color: #e4e5e8;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.LineColourTexts {
+    text-align: left;
+    padding-top: 120px;
+    padding-left: 170px;
+}
+
+.lineColourImage {
+    width: 60%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/***** Line MultiColour *****/
+
+.LineMultiColourBody {
+    background-color: #e4e5e8;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0 150px 100px;
+}
+
+.lineMContainerSmall {
+    background-color: white;
+    border-radius: 20px;
+    width: 43%;
+    margin: 10px auto;
+}
+
+.lineMContainerSmall1 {
+    background-color: white;
+    border-radius: 20px;
+    width: 43%;
+    margin: 10px auto;
+}
+
+
+/***** Line Pro *****/
+
+#LineProHeader {
+    background-color: #353a3e;
+    border-radius: 20px;
+    position: relative;
+    top: 110px;
+    margin-left: 19px;
+    margin-right: 19px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.LineHomeImage {
+    width: 100%;
+    padding: 75px 0 0px 0;
+}
+
+#LineProBody {
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+
+.LineProLightBig {
+    background-color: #e4e5e8;
+    border-radius: 20px;
+    width: 100%;
+    margin: 20px 10px;  
+}
+
+.LineProColourText {
+    padding: 120px 100px 150px 0;
+    text-align: justify;
+    line-height: normal;
+}
+
+.LineProColourText2 {
+    padding: 120px 0px 150px 100px;
+    text-align: justify;
+    line-height: normal;
+}
+
+.LineProAppsImage {
+    position: relative;
+    top: 50px;
+    width: 80%;
+    padding-bottom: 100px;
+}
+
 /***** INSTRUCTIONS *****/
 
 #tutorial {
@@ -629,7 +697,7 @@ a:hover {
 }
 
 .tutorial-steps {
-    background-color: #E6E6E6;
+    background-color: #e4e5e8;
     border-radius: 20px;
     width:60%;
     height:50%;
@@ -651,9 +719,10 @@ a:hover {
 #TutorialVideo {
     padding-top: 150px;
     padding-bottom: 100px;
-    background-color: #E6E6E6;
+    background-color: #e4e5e8;
     border-radius: 20px;
 }
+
 
 
 /***** ALL APPS *****/
@@ -692,9 +761,9 @@ a:hover {
 }
 
 #App-List-Icons {
-    background-color: #E6E6E6;
+    background-color: #e4e5e8;
     border-radius: 20px;
-    margin: 20px 38px;
+    margin: 20px 19px;
     padding: 25px 30px;
 }
 
@@ -717,8 +786,20 @@ figure {
     text-align: center;
 }
 
+
+.SubHeadings-Item {
+   text-align: justify; 
+}
+
+.buynowtitle{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .linePreview-card {
-    background-color: #F2F2F2;
+    background-color: #e4e5e8;
     padding: 10px;
     border-radius: 20px;
     width: 280px;
@@ -737,6 +818,21 @@ figure {
     bottom: 50px;
 }
 
+.colourIcon {
+    width: 125%;
+    position: relative;
+    right: 30px;
+    bottom: 30px;
+}
+
+.ColourIcon {
+    width: 100%;
+    position: relative;
+    right: 0px;
+    bottom: 25px;
+    padding-bottom: 50px;
+}
+
 .preview-button {
     border-radius: 15px;
     background-color: #FF931E;
@@ -746,6 +842,17 @@ figure {
     height: 50px;
     position: relative;
     bottom: 130px;
+}
+
+.preview-Button {
+    border-radius: 15px;
+    background-color: #FF931E;
+    border-color: #FF931E;
+    border-width: 3px;
+    width: 220px;
+    height: 50px;
+    position: relative;
+    bottom: 75px;
 }
 
 .preview-button:hover {
@@ -760,6 +867,8 @@ figure {
 
 #LineBuyNow {
     padding: 150px 50px 10px 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .LineBuyNowImage {
@@ -767,7 +876,7 @@ figure {
     width: 100%;
     height: auto;
     position: relative;
-    margin: 50px auto;
+    margin: 20px auto;
     display: block;
 }
 
@@ -803,9 +912,65 @@ select {
 }
 
 
+/* Wallpaper Page */
 
+#WallpaperHome {
+    background-color: #e4e5e8;
+    border-radius: 20px;
+    position: relative;
+    top: 110px;
+    margin-left: 19px;
+    margin-right: 19px;
+    margin-bottom: 50px;
+}
 
+.Wallpaper-text {
+    padding: 150px 0 150px 150px;
+}
 
+.WallpaperImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0;
+    width: 90%;
+
+}
+
+#wallpaperVideo {
+    position: relative;
+    top: 150px;
+    width: 100%;
+    margin:30px auto 50px ;
+}
+
+/* Inspiration Page */
+
+#InspirationPage {
+    background-color: #e4e5e8;
+    border-radius: 20px;
+    margin: 20px 19px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Inpiration {
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inspirationImage {
+    width: 25%;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
 
 
 

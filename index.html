@@ -30,50 +30,140 @@
 
     <!---NAVBAR--->
 
-    <section id="navbar">
-      <div class="row">
-        <a class="navbar-logo" href="index.html"><img src="Images/Logo.png" height="75" alt="Logo"></a>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-logo" href="index.html"><img src="Images/ID Logo Icon.png" height="30" alt="Logo"></a>
+          <a class="navbar-logo1" href="index.html"><img src="Images/ID Logo.png" height="21" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" data-toggle="collapse" data-target=".navbar-collapse">
-            <div class="navbar-nav">
-              <a class="nav-item" href="index.html">HOME</a>
-              <a class="nav-item" href="about.html">ABOUT</a>
-              <a class="nav-item" href="line.html">PRODUCTS</a>
-              <a class="nav-item" href="instructions.html">TUTORIAL</a>
-              <a class="nav-item" href="applist.html">LIST</a>
-              <a class="nav-item btn btn-outline-light btn-lg buy1-button" href="Line Buy Now.html">BUY</a>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Icons
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="line.html">Line</a>
+                    <a class="dropdown-item" href="Line MultiColour.html">Line MultiColour</a>
+                    <a class="dropdown-item" href="Line Pro.html">Line Pro</a>
+                  </div>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Wallpaper.html">Wallpapers</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="Inspiration Line.html">Inspiration</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="instructions.html">Tutorial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="applist.html">List</a>
+                </li>
+                <a class="nav-item btn btn-outline-light btn-lg buy1-button" href="Line Buy Now.html">BUY</a>
+            </ul>
           </div>
-          <div>
-            <!-- <a class="navbar-basket" href=""><img src="Images/Basket Icon.png" height="25" alt="Basket"></a> -->
-          </div>
-        </nav> 
-      </div>
-    </section>
+        </nav>
+      </section>
 
     
     <!---Home Page--->  
     <section id="homepage">
 
-      <!-- Icon packs starting at only £0.99 -->
 
-      <!-- <div class="row"> 
-        <div class="col-lg-6 homepage-text">
-          <h2>iOS 14 Icons</h2>
-          <p>300 custom designed app icons to personalise your iOS homescreen.</p> 
-          <a class="btn btn-dark btn-lg explore-button" href="line.html">EXPLORE</a>
-          <a class="btn btn-outline-light btn-lg buyNow-button" href="Line Buy Now.html">BUY NOW</a>
-        </div>
-        <div class="col-lg-6">
-          <img class="icons-image" src="Images/Home Page Apps Image.png" alt="Line Icons Image">
-        </div>
-      </div> -->
 
-      <img class="launch2-image" src="Images/Launch 2 Image1.png"  alt="Product Launch Poster">
-      <img class="launchIG2-image" src="Images/IG Launch 2.0-45.png"  alt="Product Launch Poster">
+
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol style="position: relative; top: 500px;" class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row"> 
+              <div class="col-lg-6 homepage-text">
+                <h2>Purple Icons</h2>
+                <p>300 custom designed app icons to personalise your iOS homescreen.</p> 
+                <a class="btn btn-dark btn-lg explore-button" href="line.html">EXPLORE</a>
+                <a class="btn btn-outline-light btn-lg buyNow-button" href="Line Buy Now.html">BUY NOW</a>
+              </div>
+              <div class="col-lg-6">
+                <img class="icons-image" src="Images/HP Purple Icons iPhone.png" alt="Line Icons Image">
+              </div>
+            </div>          
+          </div>
+
+          <div class="carousel-item">
+            <div class="row"> 
+              <div class="col-lg-6 homepage-text">
+                <h2>Wallpapers</h2>
+                <p>4 Wallpaper Packs to Pair with your New ICONic Designs App Icons.</p> 
+                <a class="btn btn-dark btn-lg explore-button" href="Wallpaper.html">EXPLORE</a>
+                <a class="btn btn-outline-light btn-lg buyNow-button" href="Line Buy Now.html">BUY NOW</a>
+              </div>
+              <div class="col-lg-6">
+                <img class="icons-image" src="Images/HP Wallpapers iPhone.png" alt="Line Icons Image">
+              </div>
+            </div>            
+          </div>
+
+          <div class="carousel-item">
+            <div class="row"> 
+              <div class="col-lg-6 homepage-text">
+                <h2 style="font-size: 50px;">MultiColour Icons</h2>
+                <p>1 Colour, 6 Shades, 300 App Icons, All in 1 Pack for only £4.99.</p> 
+                <a class="btn btn-dark btn-lg explore-button" href="Line MultiColour.html">EXPLORE</a>
+                <a class="btn btn-outline-light btn-lg buyNow-button" href="Line Buy Now.html">BUY NOW</a>
+              </div>
+              <div class="col-lg-6">
+                <img class="icons-image" src="Images/HP MultiColour iPhone.png" alt="Line Icons Image">
+              </div>
+            </div>              
+          </div>
+
+          <div class="carousel-item">
+            <div class="row"> 
+              <div class="col-lg-6 homepage-text">
+                <h2>Line Pro</h2>
+                <p>300 custom designed app icons to personalise your iOS homescreen.</p> 
+                <a class="btn btn-dark btn-lg explore-button" href="Line Pro.html">EXPLORE</a>
+                <a class="btn btn-outline-light btn-lg buyNow-button" href="Line Buy Now.html">BUY NOW</a>
+              </div>
+              <div class="col-lg-6">
+                <img class="icons-image" src="Images/HP Line Pro iPhone.png" alt="Line Icons Image">
+              </div>
+            </div>                 
+          </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon5" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon5" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+
+
+
+
+
+
+      <!-- <img class="launch2-image" src="Images/Launch 2 Image1.png"  alt="Product Launch Poster">
+      <img class="launchIG2-image" src="Images/IG Launch 2.0-45.png"  alt="Product Launch Poster"> -->
 
     </section>
 
@@ -85,17 +175,11 @@
       <p>Are you bored of the same old iOS home screen? Are you looking to personalise your iPhone and make it stand out? Well you are not alone, Many iOS users feel the same way!... <a class="readMore-Button" href="about.html">(Read more!)</a></p>
     </section>
 
-    <!---About Video---> 
 
-    <Section id="Line-Video-Home">
-      <video class="LineVideoHome" controls poster="images/Line Poster 1.png" autobuffer="true" controls="true" preload="none" style="object-fit:cover;">
-        <source src="Images/About:Line Video Launch.mp4" type="video/mp4">
-      </video>
-    </Section>
 
 
     <!---Product 1 (Line) HomePage---> 
-    <section id="LineHP">
+    <!-- <section id="LineHP">
       <div class="row">
         <div class="col-lg-6">
           <img class="lineApp-image" src="Images/Line Icon.png" alt="Lines Icon">
@@ -111,12 +195,74 @@
           <a style="margin-top: 50px;" class="btn btn-outline-light btn-lg buyNow-button" href="Line Buy Now.html">BUY NOW</a>
         </div>
       </div>
-    </section>
+    </section> -->
     
+
+
+
+    <section style="margin-top: 0px;" ID="WallpaperPreviewCards">
+      <h3 style="text-align: center; margin-top: 150px; margin-bottom: 30px;">Our Products</h3>
+      <div class="row justify-content-center">
+        <div class="linePreview-card">
+          <div class="card-body">
+            <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Line</h4>
+            <br>
+            <a href=""> <img class="ProductIcon" src="Images/HP Purple Icon.png" alt="Line Image"></a>
+            <br>
+            <a style="margin-top: 80px;" class="btn btn-dark btn-lg preview-Button" href="line.html"><h4 style="color: #fff; font-size: 20px; font-weight: 700;">EXPLORE</h4></a>
+          </div>
+        </div>
+        <div class="linePreview-card">
+          <div class="card-body">
+            <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Wallpapers</h4>
+            <br>
+            <a href=""> <img class="ProductIcon" src="Images/HP Wallpaper Icon.png" alt="Line Image"></a>
+            <br>
+            <a style="margin-top: 80px;" class="btn btn-dark btn-lg preview-Button" href="Wallpaper.html"><h4 style="color: #fff; font-size: 20px; font-weight: 700;">EXPLORE</h4></a>
+          </div>
+        </div>
+        <div class="linePreview-card">
+          <div class="card-body">
+            <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Line MiltiColour</h4>
+            <br>
+            <a href=""> <img class="ProductIcon" src="Images/HP MultiColour Icon.png" alt="Line Image"></a>
+            <br>
+            <a style="margin-top: 80px;" class="btn btn-dark btn-lg preview-Button" href="Line MultiColour.html"><h4 style="color: #fff; font-size: 20px; font-weight: 700;">EXPLORE</h4></a>
+          </div>
+        </div>
+        <div class="linePreview-card">
+          <div class="card-body">
+            <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Line Pro</h4>
+            <br>
+            <a href=""> <img class="ProductIcon" src="Images/HP Line Pro Icon.png" alt="Line Image"></a>
+            <br>
+            <a style="margin-top: 80px;" class="btn btn-dark btn-lg preview-Button" href="Line Pro.html"><h4 style="color: #fff; font-size: 20px; font-weight: 700;">EXPLORE</h4></a>
+          </div>
+        </div>
+        </div>
+      </section> 
+
+
+
+        <!---About Video---> 
+
+        <section style="margin: 0 20px; padding-right: 40px;" id="wallpaperVideo">
+          <h3 style="color: #4d4d4d; text-align: center;">Product Launch Video - 26 June</h3>
+          <video  class="LineVideoHome" poster="Images/Launch 2 Poster.png" autobuffer="true" controls="true" preload="none" style="object-fit:cover;">
+              <source src="Images/Final Launch 2.mp4" type="video/mp4">
+            </video>
+        </section>
+    
+        <section style="margin: 0 20px; padding-right: 40px;" id="wallpaperVideo">
+          <h3 style="color: #4d4d4d; text-align: center;">Product Launch Video - 27 March</h3>
+          <video  class="LineVideoHome" poster="Images/Line Poster 1.png" autobuffer="true" controls="true" preload="none" style="object-fit:cover;">
+              <source src="Images/About:Line Video Launch.mp4" type="video/mp4">
+            </video>
+        </section>
 
     <!---Footer---> 
     
-    <footer id="footer">
+    <footer style="margin-top: 100px;" id="footer">
       <a href="https://www.instagram.com/iconic_designs.co.uk"> <i class="fab fa-instagram fa-2x footer-icons"></i> </a>
       <a href="mailto:sales@iconic-designs.co.uk"> <i class="far fa-envelope fa-2x footer-icons"></i> </a>
       <p>© Copyright 2021 ICONic DESIGNS</p>

@@ -19,19 +19,19 @@
         background-color: #4D4D4D;
         height: 75px;
         width: auto;
-        left: 250px;
-        right: 38px;
+        left: 19px;
+        right: 19px;
         position: fixed;
         margin: 38px 0 0 0;
         z-index: 2;
     }
 
-    .navbar-collapse {
+    /* .navbar-collapse {
         margin-left: -250px;
-    }
+    } */
 
     .navbar-logo {
-        left: 5px;
+        left: 35px;
     }
 
     
@@ -56,17 +56,26 @@
         height: auto;
     }
 
-    /* #homepage {
-        background-color: #E6E6E6;
+    #homepage {
+        background-color: #e4e5e8;
         border-radius: 20px;
-        padding-top: 100px;
+        padding-top: 0px;
         padding-left: 50px;
         padding-right: 50px;
-    } */
+        top: 125px;
+    }
 
     .homepage-text {
         text-align: center;
     }
+
+.carousel-control-next-icon5 {
+    display: block;
+}
+
+.carousel-control-prev-icon5 {
+    display: block;
+}
 
     #AboutHP {
         padding: 100px -50px 0px -50px;
@@ -103,7 +112,8 @@
     /***** ABOUT ME *****/
 
     #aboutUs {
-        padding: 100px 50px 200px 50px;
+        padding: 0px 50px 200px 50px;
+        top: 125px;
     }
 
     .abouttitle {
@@ -156,5 +166,76 @@
     figure {
         font-size: x-small;
     }
+
+
+        /* Wallpapers */
+
+        #WallpaperHome {
+
+            top: 125px;
+
+        }
+
+        #LineBuyNow {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+
+        /* New Line */
+
+        .LineColourTexts {
+            text-align: center;
+            padding-top: 120px;
+            padding-left: 50px;
+        }
+
+        .lineColourImage {
+            width: 100%;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 50px;
+        }
+
+        #LineBody {
+
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .lineMContainerSmall1 {
+            background-color: white;
+            border-radius: 20px;
+            width: 90%;
+            margin: 10px auto;
+        }
+
+        .lineMContainerSmall {
+            background-color: white;
+            border-radius: 20px;
+            width: 90%;
+            margin: 10px auto;
+        }
+
+        .LineMultiColourBody {
+            background-color: #e4e5e8;
+            border-radius: 20px;
+            text-align: center;
+            padding: 0 0px 100px;
+        }
+
+        #LineProHeader {
+            background-color: #353a3e;
+            border-radius: 20px;
+            position: relative;
+            top: 120px;
+            margin-left: 19px;
+            margin-right: 19px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
 
 }

@@ -28,40 +28,211 @@
 
     <!---NAVBAR--->
 
-    <section id="navbar">
-      <div class="row">
-        <a class="navbar-logo" href="index.html"><img src="Images/Logo.png" height="75" alt="Logo"></a>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-logo" href="index.html"><img src="Images/ID Logo Icon.png" height="30" alt="Logo"></a>
+          <a class="navbar-logo1" href="index.html"><img src="Images/ID Logo.png" height="21" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" data-toggle="collapse" data-target=".navbar-collapse">
-            <div class="navbar-nav">
-              <a class="nav-item" href="index.html">HOME</a>
-              <a class="nav-item" href="about.html">ABOUT</a>
-              <a class="nav-item" href="line.html">PRODUCTS</a>
-              <a class="nav-item" href="instructions.html">TUTORIAL</a>
-              <a class="nav-item" href="applist.html">LIST</a>
-              <a class="nav-item btn btn-outline-light btn-lg buy1-button" href="Line Buy Now.html">BUY</a>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Icons
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="line.html">Line</a>
+                    <a class="dropdown-item" href="Line MultiColour.html">Line MultiColour</a>
+                    <a class="dropdown-item" href="Line Pro.html">Line Pro</a>
+                  </div>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Wallpaper.html">Wallpapers</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="Inspiration Line.html">Inspiration</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="instructions.html">Tutorial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="applist.html">List</a>
+                </li>
+                <a class="nav-item btn btn-outline-light btn-lg buy1-button active" href="Line Buy Now.html">BUY</a>
+            </ul>
           </div>
-          <div>
-            <!-- <a class="navbar-basket" href=""><img src="Images/Basket Icon.png" height="25" alt="Basket"></a> -->
-          </div>
-        </nav> 
-      </div>
-    </section>
+        </nav>
+      </section>
+
 
     
     <!---LINE BUY NOW--->
     <section id="lineColoursPreview">
       <div>
-        <h2 style="color: rgb(184, 184, 184);" class="App-List-Title">Choose a Colour</h2>
+        <h2 style="color: rgb(184, 184, 184);" class="App-List-Title">Choose a Product</h2>
         <i style="top: -75px; position: relative;" class="fas fa-3x fa-chevron-down down-arrow"></i>
+        <div class="row">
+          <a style="font-weight: 600; font-size: 24px; " class="SubHeadings-item col-lg-3 col-md-4 col-sm-6" href="#LinePreviewCards">Line</a>
+          <a style="font-weight: 600; font-size: 24px; " class="SubHeadings-item col-lg-3 col-md-4 col-sm-6" href="#LineMutliColourPreviewCards">Line MultiColour</a>
+          <a style="font-weight: 600; font-size: 24px; " class="SubHeadings-item col-lg-3 col-md-4 col-sm-6" href="#LineProPreviewCards">Line Pro</a>
+          <a style="font-weight: 600; font-size: 24px; " class="SubHeadings-item col-lg-3 col-md-4 col-sm-6" href="#WallpaperPreviewCards">Wallpapers</a>
+        </div>
       </div>
     </section> 
 
-    <section style="margin-top: -200px;" class="">
+    
+
+    <section style="margin-top: -200px;" ID="LineProPreviewCards">
+      <hr>
+      <img src="images/Line Pro Title.png" class="buynowtitle" alt="">
+      <div class="row justify-content-center">
+        <div class="linePreview-card">
+          <div class="card-body">
+            <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Dark</h4>
+            <br>
+            <a href=""> <img class="colourIcon" src="Images/Line Pro Dark Icon.png" alt="Line Image"></a>
+            <br>
+            <p style="position: relative; top: -110px; text-align: center;">This Product will be Available on Monday 12 July</p>
+            <!-- <a class="btn btn-dark btn-lg preview-Button" href=""><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a> -->
+          </div>
+        </div>
+        <div class="linePreview-card">
+          <div class="card-body">
+            <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Light</h4>
+            <br>
+            <a href=""> <img class="colourIcon" src="Images/Line Pro Light Icon.png" alt="Line Image"></a>
+            <br>
+            <p style="position: relative; top: -110px; text-align: center;">This Product will be Available on Monday 12 July</p>
+            <!-- <a class="btn btn-dark btn-lg preview-Button" href=""><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a> -->
+          </div>
+        </div>
+        </div>
+      </section> 
+
+      <hr>
+
+    <section style="margin-top: 0px;" ID="LineMutliColourPreviewCards">
+      <img src="images/Line M Title.png" class="buynowtitle" alt="">
+      <div class="row justify-content-center">
+        <div class="linePreview-card">
+          <div class="card-body">
+            <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Blush</h4>
+            <br>
+            <a href=""> <img class="colourIcon" src="Images/Blush Icon.png" alt="Line Image"></a>
+            <br>
+            <p style="position: relative; top: -110px; text-align: center;">This Product will be Available on Monday 5 July</p>
+            <!-- <a class="btn btn-dark btn-lg preview-Button" href=""><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a> -->
+          </div>
+        </div>
+        <div class="linePreview-card">
+          <div class="card-body">
+            <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Nude</h4>
+            <br>
+            <a href=""> <img class="colourIcon" src="Images/Nude Icon.png" alt="Line Image"></a>
+            <br>
+            <p style="position: relative; top: -110px; text-align: center;">This Product will be Available on Monday 5 July</p>
+            <!-- <a class="btn btn-dark btn-lg preview-Button" href=""><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a> -->
+          </div>
+        </div>
+        <div class="linePreview-card">
+          <div class="card-body">
+            <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Pastel Blue</h4>
+            <br>
+            <a href=""> <img class="colourIcon" src="Images/Pastel Blue Icon.png" alt="Line Image"></a>
+            <br>
+            <p style="position: relative; top: -110px; text-align: center;">This Product will be Available on Monday 5 July</p>
+            <!-- <a class="btn btn-dark btn-lg preview-Button" href=""><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a> -->
+          </div>
+        </div>
+        <div class="linePreview-card">
+          <div class="card-body">
+            <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Lavender</h4>
+            <br>
+            <a href=""> <img class="colourIcon" src="Images/Lavender Icon.png" alt="Line Image"></a>
+            <br>
+            <p style="position: relative; top: -110px; text-align: center;">This Product will be Available on Monday 5 July</p>
+            <!-- <a class="btn btn-dark btn-lg preview-Button" href=""><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a> -->
+          </div>
+        </div>
+        <div class="linePreview-card">
+          <div class="card-body">
+            <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Sage Green</h4>
+            <br>
+            <a href=""> <img class="colourIcon" src="Images/Sage Green Iconpng.png" alt="Line Image"></a>
+            <br>
+            <p style="position: relative; top: -110px; text-align: center;">This Product will be Available on Monday 5 July</p>
+            <!-- <a class="btn btn-dark btn-lg preview-Button" href=""><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a> -->
+          </div>
+        </div>
+        <div class="linePreview-card">
+          <div class="card-body">
+            <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Greyscale</h4>
+            <br>
+            <a href=""> <img class="colourIcon" src="Images/Greyscale Icon.png" alt="Line Image"></a>
+            <br>
+            <p style="position: relative; top: -110px; text-align: center;">This Product will be Available on Monday 5 July</p>
+            <!-- <a class="btn btn-dark btn-lg preview-Button" href=""><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a> -->
+          </div>
+        </div>
+      </section> 
+
+<hr>
+
+<section style="margin-top: 0px;" ID="WallpaperPreviewCards">
+  <h3 style="text-align: center; margin-top: 50px; margin-bottom: 50px;">Wallpaper Packs</h3>
+  <div class="row justify-content-center">
+    <div class="linePreview-card">
+      <div class="card-body">
+        <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Solid</h4>
+        <br>
+        <a href=""> <img class="ColourIcon" src="Images/Solid Icon.png" alt="Line Image"></a>
+        <br>
+        <p style="position: relative; top: -110px; text-align: center;">This Product will be Available on Monday 28 June</p>
+        <!-- <a class="btn btn-dark btn-lg preview-Button" href=""><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a> -->
+      </div>
+    </div>
+    <div class="linePreview-card">
+      <div class="card-body">
+        <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Gradient</h4>
+        <br>
+        <a href=""> <img class="ColourIcon" src="Images/Gradient Icon.png" alt="Line Image"></a>
+        <br>
+        <p style="position: relative; top: -110px; text-align: center;">This Product will be Available on Monday 28 June</p>
+        <!-- <a class="btn btn-dark btn-lg preview-Button" href=""><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a> -->
+      </div>
+    </div>
+    <div class="linePreview-card">
+      <div class="card-body">
+        <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Two-Tone</h4>
+        <br>
+        <a href=""> <img class="ColourIcon" src="Images/Two Tone Icon.png" alt="Line Image"></a>
+        <br>
+        <p style="position: relative; top: -70px; text-align: center;">Available on Monday 28 June</p>
+        <!-- <a class="btn btn-dark btn-lg preview-Button" href=""><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a> -->
+      </div>
+    </div>
+    <div class="linePreview-card">
+      <div class="card-body">
+        <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Geometric</h4>
+        <br>
+        <a href=""> <img class="ColourIcon" src="Images/Geometric Icon.png" alt="Line Image"></a>
+        <br>
+        <p style="position: relative; top: -110px; text-align: center;">This Product will be Available on Monday 28 June</p>
+        <!-- <a class="btn btn-dark btn-lg preview-Button" href=""><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a> -->
+      </div>
+    </div>
+    </div>
+  </section> 
+
+  <hr>
+
+
+    <section style="margin-top: 0px;" ID="LinePreviewCards">
+      <img src="images/Line Title.png" class="buynowtitle" alt="">
       <div class="row justify-content-center">
         <div class="linePreview-card">
           <div class="card-body">
@@ -151,6 +322,16 @@
             <a href="https://www.etsy.com/uk/listing/985510571/300-app-icons-gold-digital-product?ref=shop_home_active_8"> <img class="colourIcons" src="Images/Gold Line Icon.png" alt="Line Image"></a>
             <br>
             <a class="btn btn-dark btn-lg preview-button" href="https://www.etsy.com/uk/listing/985510571/300-app-icons-gold-digital-product?ref=shop_home_active_8"><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a>
+          </div>
+        </div>
+        <div class="linePreview-card">
+          <div class="card-body">
+            <h4 style="text-align: center; color: #4D4D4D;" class="card-title">Purple</h4>
+            <br>
+            <a href=""> <img class="colourIcon" src="Images/Purple Icon.png" alt="Line Image"></a>
+            <br>
+            <p style="position: relative; top: -110px; text-align: center;">This Product will be Available on Monday 28 June</p>
+            <!-- <a class="btn btn-dark btn-lg preview-Button" href=""><h4 style="color: #fff; font-size: 20px; font-weight: 500;">PREVIEW</h4></a> -->
           </div>
         </div>
     </section> 

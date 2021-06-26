@@ -28,40 +28,51 @@
 
     <!---NAVBAR--->
 
-    <section id="navbar">
-      <div class="row">
-        <a class="navbar-logo" href="index.html"><img src="Images/Logo.png" height="75" alt="Logo"></a>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-logo" href="index.html"><img src="Images/ID Logo Icon.png" height="30" alt="Logo"></a>
+          <a class="navbar-logo1" href="index.html"><img src="Images/ID Logo.png" height="21" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" data-toggle="collapse" data-target=".navbar-collapse">
-            <div class="navbar-nav">
-              <a class="nav-item" href="index.html">HOME</a>
-              <a class="nav-item" href="about.html">ABOUT</a>
-              <a class="nav-item" href="line.html">PRODUCTS</a>
-              <a class="nav-item" href="instructions.html">TUTORIAL</a>
-              <a class="nav-item" href="applist.html">LIST</a>
-              <a class="nav-item btn btn-outline-light btn-lg buy1-button" href="Line Buy Now.html">BUY</a>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Icons
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="line.html">Line</a>
+                    <a class="dropdown-item" href="Line MultiColour.html">Line MultiColour</a>
+                    <a class="dropdown-item" href="Line Pro.html">Line Pro</a>
+                  </div>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Wallpaper.html">Wallpapers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Inspiration Line.html">Inspiration</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="instructions.html">Tutorial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="applist.html">List</a>
+                </li>
+                <a class="nav-item btn btn-outline-light btn-lg buy1-button" href="Line Buy Now.html">BUY</a>
+            </ul>
           </div>
-          <div>
-            <!-- <a class="navbar-basket" href=""><img src="Images/Basket Icon.png" height="25" alt="Basket"></a> -->
-          </div>
-        </nav> 
-      </div>
-    </section>
+        </nav>
+      </section>
 
     <!---STEP BY STEP INSTRUCTIONS--->
 
-    <section id="TutorialVideo">
-      <video class="LineVideoHome" poster="Images/Icons Poster.png" autobuffer="true" controls="true" preload="none" style="object-fit:cover;">
-        <source src="Images/Website Tutorial 1.mp4" type="video/mp4">
-      </video>
-    </section>
 
 
-    <section id="tutorial">
+    <section style="padding-top: 150px;" id="tutorial">
       <h4 style="color: #4D4D4D; text-align: center; padding: 0 20px;">Installing the App Icons</h4>
       <br>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -82,12 +93,22 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="15"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="16"></li>
         </ol>
 
 
         <div class="carousel-inner" data-interval="false">
 
+
           <div class="carousel-item active">
+            <div class=" row">
+              <video style="width: 60%;" class="LineVideoHome" poster="Images/Icons Poster.png" autobuffer="true" controls="true" preload="none" style="object-fit:cover;">
+                <source src="Images/Website Tutorial 1.mp4" type="video/mp4">
+              </video>
+            </div>       
+          </div>
+
+          <div class="carousel-item ">
             <div class="tutorial-steps row">
               <div class="col-lg-6">
                 <img class="tutorialSteps-Image" src="Images/Step 0.png" height="350px" alt="Step 0 Image">
@@ -310,11 +331,6 @@
     </section>
 
 
-    <section id="TutorialVideo">
-      <video class="LineVideoHome" poster="Images/Notification Banner Poster.png" autobuffer="true" controls="true" preload="none" style="object-fit:cover;">
-        <source src="Images/Website Notification Banner.mp4" type="video/mp4">
-      </video>
-    </section>
 
 
     <section id="tutorial">
@@ -339,11 +355,20 @@
           <li data-target="#carouselExampleIndicators1" data-slide-to="13"></li>
           <li data-target="#carouselExampleIndicators1" data-slide-to="14"></li>
           <li data-target="#carouselExampleIndicators1" data-slide-to="15"></li>
+          <li data-target="#carouselExampleIndicators1" data-slide-to="16"></li>
         </ol>
 
         <div class="carousel-inner">
 
           <div class="carousel-item active">
+            <div class=" row">
+              <video style="width: 60%;" class="LineVideoHome" poster="Images/Icons Poster.png" autobuffer="true" controls="true" preload="none" style="object-fit:cover;">
+                <source src="Images/Website Tutorial 1.mp4" type="video/mp4">
+              </video>
+            </div>       
+          </div>
+
+          <div class="carousel-item">
             <div class="tutorial-steps row">
               <div class="col-lg-6">
                 <img class="tutorialSteps-Image" src="Images/Tutorial 2 Step 1.png" height="350px" alt="Step 1 Image">
@@ -563,6 +588,13 @@
       </div> 
 
     </section>
+
+
+
+
+
+
+
 
 
    <!---Footer---> 
