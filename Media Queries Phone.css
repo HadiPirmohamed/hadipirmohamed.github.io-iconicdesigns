@@ -26,6 +26,23 @@
         z-index: 2;
     }
 
+
+    .nav-item {
+        /* 
+        height: 50px;
+        padding-top: 13px;
+        */
+        width: 100%;
+        text-align: right;
+        padding-right: 50px;
+        float: right;
+        background-color: #353a3e;
+        position: relative;
+        top: 20px; 
+    }
+
+    
+
     .navbar-nav{
         width: 100%;
         position: relative;
