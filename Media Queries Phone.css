@@ -6,7 +6,7 @@
     }
 
     h2 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     /***** NAVBAR *****/
@@ -26,12 +26,20 @@
         z-index: 2;
     }
 
-    /* .navbar-collapse {
+    .collapse {
         margin-left: -250px;
-    } */
+    }
 
     .navbar-logo {
         left: 35px;
+    }
+
+    .navbar-logo1 {
+        display: none;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
     }
 
     
