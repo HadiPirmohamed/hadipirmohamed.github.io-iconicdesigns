@@ -79,14 +79,14 @@
 
 
 #homepage {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .homepage-text {
     text-align: center;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .icons-image {
@@ -292,7 +292,7 @@
 /* Wallpaper */
 
 .Wallpaper-text {
-    padding: 100px 100px 100px;
+    padding: 100px 50px 100px;
     text-align: center;
 }
 

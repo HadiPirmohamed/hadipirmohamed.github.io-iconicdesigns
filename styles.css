@@ -946,6 +946,13 @@ select {
     margin:30px auto 50px ;
 }
 
+#WallpaperBody {
+    padding: 150px 50px 10px 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
 /* Inspiration Page */
 
 #InspirationPage {
